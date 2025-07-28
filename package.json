@@ -1,0 +1,14 @@
+{
+  "name": "graph-create-event",
+  "version": "1.0.0",
+  "description": "Daemon app som skapar kalenderhändelse via Microsoft Graph",
+  "main": "src/index.js",
+  "scripts": {
+    "create-event": "node src/index.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.0.0",
+    "axios": "^1.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
